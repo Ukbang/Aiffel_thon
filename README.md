@@ -11,9 +11,9 @@
 ---
 # Reference
 1. [songys/AwesomeKorean_Data: 한국어 데이터 세트 링크](https://github.com/songys/AwesomeKorean_Data)
-2. 자유대화형식의 음성 데이터 [데이터 분야 - AI 데이터찾기 - AI-Hub (aihub.or.kr)]
-3. STT모델 및 TTS모델 개발 [인공지능 스피커 만들기 【파이썬】 - YouTube]
-4. 온라인 구어체 말뭉치 데이터 [데이터 분야 - AI 데이터찾기 - AI-Hub (aihub.or.kr)]
-5. 법률 지식 베이스 [데이터 분야 - AI 데이터찾기 - AI-Hub (aihub.or.kr)]
-6. 파이썬으로 JSON 파일 다루기 [파이썬으로 JSON 파일 다루기 (feat. JSON 설명) - YouTube]
-7.korean SmileStyle Dataset [smilegate-ai/korean_smile_style_dataset (github.com]
+2. [자유대화형식의 음성 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=109)
+3. [STT모델 및 TTS모델 개발](https://www.youtube.com/watch?v=WTul6LIjIBA)
+4. [온라인 구어체 말뭉치 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=625)
+5. [법률 지식 베이스](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=99)
+6. [파이썬으로 JSON 파일 다루기](https://www.youtube.com/watch?v=s9D-JIuaFqY&t=433s)
+7. [korean SmileStyle Dataset](https://www.google.com/url?q=https://github.com/smilegate-ai/korean_smile_style_dataset&sa=D&source=docs&ust=1672048006339662&usg=AOvVaw2KWZl71R1gdPiznFcT1tkG)
