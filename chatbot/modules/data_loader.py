@@ -109,5 +109,49 @@ def json_multi_loader(file_path):
     return total_frame    
 
 
+def social_json_multi_loader(file_path, list_name):
+    import os
+    import json
+    from tqdm import tqdm
+    import pandas as pd
+
+    total_list = []
+
+    t = tqdm(range(len(list_name)))
+
+    for i in t:
+        t.set_postfix_str('Loading... [{}]'.format(list_name[i][:-1]))
+        _dir = os.listdir(file_path+list_name[i])
+        for j in range(len(_dir)):
+            with open(file_path+list_name[i]+_dir[j], 'r', encoding='utf-8') as f:
+                try:
+                    data = json.load(f)
+                except:
+                    print(file_path+list_name[i]+_dir[j])
+                _list = []
+                for k in range(len(data['info'][0]['annotations']['lines'])):
+                    if k == 0:
+                        _list.append(data['info'][0]['annotations']['lines'][k]['norm_text'])
+                    elif k != 0:
+                        if data['info'][0]['annotations']['lines'][k-1]['speaker']['id'] == data['info'][0]['annotations']['lines'][k]['speaker']['id']:
+                            _list[-1] = _list[-1] + ' ' + data['info'][0]['annotations']['lines'][k]['norm_text']
+                        else:
+                            _list[-1] = _list[-1] + '\n' + data['info'][0]['annotations']['lines'][k]['norm_text']
+                total_list.append(_list)
+
+    t = tqdm(range(len(total_list)))
+    t.set_postfix_str('transforming to csv file...')
+
+    for i in t:
+        if i == 0:
+            total_df = pd.DataFrame(pd.Series(total_list[i])).rename(columns={0:'conversation'})
+        elif i != 0:
+            first_df = pd.DataFrame(pd.Series(total_list[i])).rename(columns={0:'conversation'})
+            total_df = pd.concat([total_df, first_df], axis=0)
+
+    total_df.reset_index(inplace=True, drop=True)
+
+    return total_df
+
 def save_csv(dataframe, save_path, save_file_name):  
     dataframe.to_csv(save_path+save_file_name)
