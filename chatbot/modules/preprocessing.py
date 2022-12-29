@@ -62,8 +62,8 @@ def word2vec_tokenize(dataframe, single=True):
     from konlpy.tag import Okt
     
     if single == True:
+        tokenizer = []
         for i in tqdm(range(len(dataframe))):
-            tokenizer = []
             okt = Okt()
             x = okt.pos(dataframe['Q'][i], stem=True, norm=True)
             y = okt.pos(dataframe['A'][i], stem=True, norm=True)
@@ -75,8 +75,8 @@ def word2vec_tokenize(dataframe, single=True):
                     tokenizer.append(word[0])
 
     if single == False:
+        tokenizer = []
         for i in tqdm(range(len(dataframe))):
-            tokenizer = []
             okt = Okt()
             x = okt.pos(dataframe['conversation'][i], stem=True, norm=True)
             for word in x:
