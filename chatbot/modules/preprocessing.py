@@ -53,34 +53,43 @@ def clear_sentence(sentence):
     sentence = re.sub(r'[ㅎ]{1}[ㅎ]+', r'ㅎㅎ', sentence) # 반복되는 ㅎ 2개로 통일
     sentence = re.sub(r'[ㅠ]{1}[ㅠ]+', r'ㅠㅠ', sentence) # 반복되는 ㅠ 2개로 통일
     sentence = re.sub(r'[.]{1}[.]+', r'..', sentence) # 반복되는 . 2개로 통일
+    sentence = re.sub(r'[키]{1}[키키]+', r'ㅋㅋ', sentence) # 반복되는 키키 2개로 통일
     sentence = re.sub(r'["   "]+', " ", sentence) # 여러개의 공백 1개로 변경
     
     return sentence
 
 def word2vec_tokenize(dataframe, single=True):
     from tqdm import tqdm
-    from konlpy.tag import Okt
+    from konlpy.tag import Mecab
     
     if single == True:
         tokenizer = []
+        mecab = Mecab()
+
         for i in tqdm(range(len(dataframe))):
-            okt = Okt()
-            x = okt.pos(dataframe['Q'][i], stem=True, norm=True)
-            y = okt.pos(dataframe['A'][i], stem=True, norm=True)
+            x = mecab.pos(dataframe['Q'][i])
+            y = mecab.pos(dataframe['A'][i])
+            questiosn_words = []
+            answers_words = []
             for word in x:
-                if word[1] == 'Noun':
-                    tokenizer.append(word[0])
+                if word[1] == 'NNG' or word[1] == 'MAG' or word[1] == 'NP'  or word[1] == 'NR':
+                    questiosn_words.append(word[0])
             for word in y:
-                if word[1] == 'Noun':
-                    tokenizer.append(word[0])
+                if word[1] == 'NNG' or word[1] == 'MAG' or word[1] == 'NP'  or word[1] == 'NR':
+                    answers_words.append(word[0])
+            tokenizer.append(questiosn_words)
+            tokenizer.append(answers_words)
 
     if single == False:
         tokenizer = []
+        mecab = Mecab()
+        
         for i in tqdm(range(len(dataframe))):
-            okt = Okt()
-            x = okt.pos(dataframe['conversation'][i], stem=True, norm=True)
+            x = mecab.pos(dataframe['conversation'][i], stem=True, norm=True)
+            words = []
             for word in x:
-                if word[1] == 'Noun':
-                    tokenizer.append(word[0])
+                if word[1] == 'NNG' or word[1] == 'MAG' or word[1] == 'NP'  or word[1] == 'NR':
+                    words.append(word[0])
+            tokenizer.append(words)
 
     return tokenizer
