@@ -8,13 +8,20 @@
 |테스트1|테스트2|테스트3|
 
 ---
-# 데이터 형식
+# 사용할 데이터의 형식
 
 1. Single Turn 형식의 대화
+
 ![single_csv](https://user-images.githubusercontent.com/112140981/210199245-bb73582b-7081-48d4-8855-93aa752f3f8c.png)
 
+데이터프레임 형태로 Q, A Columns 로 구분되어진 Single-turn 대화의 데이터 형식
+
+
 2. Multi Turn 형식의 대화
+
 ![multi_csv](https://user-images.githubusercontent.com/112140981/210199247-4dcb6328-7b3c-478e-9171-b81299ec130f.png)
+
+데이터프레임 형태로 한 대화의 말뭉치를 Conversation column으로 구분하고 각 대화 간 줄바꿈을 “\n” 으로 표현한 멀티턴 대화의 데이터 형식
 
 ---
 # Reference
@@ -31,5 +38,5 @@
 
 ---
 ### Google Drive
-- []()
+- [구글 드라이브 링크](https://drive.google.com/drive/folders/13xvDPcMMqEe8cVTOg3VBjc0IgSjOAX9E)
  
