@@ -46,6 +46,7 @@
 11. [[NLP] 언어모델의 평가지표 'Perplexity' 개념 및 계산방법](https://heytech.tistory.com/344)
 12. [무슨 대화든 할 수 있는 에이전트를 향하여](https://brunch.co.kr/@synabreu/35)
 13. [PyTorch 2.0 무엇이 다른가?](https://blog.naver.com/october-eight/222948663006)
+14. [Tensorflow_KoGPT2_Chabot](https://github.com/ukairia777/tensorflow-kogpt2-chatbot/blob/main/KoGPT2_Chatbot.ipynb)
 
 ---
 ### Google Drive
