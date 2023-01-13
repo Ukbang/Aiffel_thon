@@ -47,6 +47,7 @@
 12. [무슨 대화든 할 수 있는 에이전트를 향하여](https://brunch.co.kr/@synabreu/35)
 13. [PyTorch 2.0 무엇이 다른가?](https://blog.naver.com/october-eight/222948663006)
 14. [Tensorflow_KoGPT2_Chabot](https://github.com/ukairia777/tensorflow-kogpt2-chatbot/blob/main/KoGPT2_Chatbot.ipynb)
+15. [GPT-2 Fine Tuning ](https://blog.naver.com/ds_penaut/222699897818)
 
 ---
 ### Google Drive
