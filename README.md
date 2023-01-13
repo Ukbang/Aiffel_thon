@@ -48,7 +48,7 @@
 13. [PyTorch 2.0 무엇이 다른가?](https://blog.naver.com/october-eight/222948663006)
 14. [Tensorflow_KoGPT2_Chabot](https://github.com/ukairia777/tensorflow-kogpt2-chatbot/blob/main/KoGPT2_Chatbot.ipynb)
 15. [GPT-2 Fine Tuning ](https://blog.naver.com/ds_penaut/222699897818)
-
+16. [CaFeCoKe/KoGPT2_Chatbot](https://github.com/CaFeCoKe/KoGPT2_Chatbot)
 ---
 ### Google Drive
 - [구글 드라이브 링크](https://drive.google.com/drive/folders/13xvDPcMMqEe8cVTOg3VBjc0IgSjOAX9E)
