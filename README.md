@@ -1,4 +1,4 @@
-# Aiffel_thon
+# Aiffel Thon
 ---
 
 |순서|기간|세부 계획|
