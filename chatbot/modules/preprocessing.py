@@ -39,21 +39,22 @@ def clear_sentence(sentence):
     import numpy as np
     import re
 
-    if '#@시스템#사진#' in sentence: # 해시태그 지정된 사진이 있는 행은 NaN 값으로 변경. 대체적으로 사진 하나만 보내는 경우가 많았음.
+    if '#@시스템#사진#' in sentence or '@URL' in sentence:
         sentence = np.NaN
         return sentence
     sentence = sentence.lower()   # 영어 소문자
     sentence = re.sub(r'\([^)]*\)', r'', sentence) # 괄호 안에 든 문구 삭제
-    sentence = re.sub(r"([?.!,~])", r" \1 ", sentence) # 특수문자 주변에 공백 생성
     sentence = re.sub("#@이름#", make_name(), sentence) # 해시태그 지정된 이름을 임의의 이름으로 지정
     sentence = re.sub("#@이모티콘#", '', sentence)  # 이모티콘은 삭제
-    sentence = re.sub(r'[^0-9a-zA-Z가-힣ㅋㅎㅠ\n?!._ ]+', r'', sentence) # 지정 단어 제외 삭제
-    sentence = re.sub("\n", '\n ', sentence) # 문장나눔기준인 줄 바꿈 기호 뒤에 공백 한칸 생성
-    sentence = re.sub(r'[ㅋ]{1}[ㅋ]+', r'ㅋㅋㅋ', sentence) # 반복되는 ㅋ 2개로 통일
-    sentence = re.sub(r'[ㅎ]{1}[ㅎ]+', r'ㅎㅎ', sentence) # 반복되는 ㅎ 2개로 통일
+    sentence = re.sub(r'[^0-9a-zA-Z가-힣ㅋㅎㅜㅠ?!<>._ ]+', r'', sentence) # 지정 단어 제외 삭제
+    sentence = re.sub(r'[ㅋ]{1}[ㅋ]+', r'ㅋㅋ', sentence) # 반복되는 ㅋ 3개로 통일
+    sentence = re.sub(r'[ㅎ]{1}[ㅎ]+', r'ㅋㅋ', sentence) # 반복되는 ㅎ 2개로 통일
     sentence = re.sub(r'[ㅠ]{1}[ㅠ]+', r'ㅠㅠ', sentence) # 반복되는 ㅠ 2개로 통일
+    sentence = re.sub(r'[ㅜ]{1}[ㅜ]+', r'ㅠㅠ', sentence) # 반복되는 ㅠ 2개로 통일
     sentence = re.sub(r'[.]{1}[.]+', r'..', sentence) # 반복되는 . 2개로 통일
-    sentence = re.sub(r'[키]{1}[키키]+', r'ㅋㅋ', sentence) # 반복되는 키키 2개로 통일
+    sentence = re.sub(r'[!]{1}[!]+', r'!', sentence) # 반복되는 ! 1개로 통일
+    sentence = re.sub(r'[?]{1}[?]+', r'?', sentence) # 반복되는 ? 1개로 통일    
+    sentence = re.sub(r'[키]{1}[키키]+', r'ㅋㅋ', sentence) # 반복되는 키키 ㅋㅋ로 변경
     sentence = re.sub(r'["   "]+', " ", sentence) # 여러개의 공백 1개로 변경
     
     return sentence
