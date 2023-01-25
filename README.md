@@ -31,13 +31,11 @@
 
 ---
 # Requirement
-Transformer 4.11.3
- 
- 
-Numpy 1.21.4
- 
- 
-PyTorch 1.9.1+cu111
+>> Transformer 4.11.3
+  
+>> Numpy 1.21.4
+  
+>> PyTorch 1.9.1+cu111
  
  
 
