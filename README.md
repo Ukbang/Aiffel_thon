@@ -28,7 +28,7 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |skt/kogpt2-base-v2|3|All Data(250000)|Done|2023-01-25|Input과 동일|None -> 2.811 -> 2.778 |None -> 3.864 -> 3.811|[Link]()|
 |skt/kogpt2-base-v2|3|All Data(250000)|Testing...|...|Mask token|0.014 -> |None -> |...|[Link]()|
-|skt/kogpt2-base-v2|3|All Data(250000)|Waiting...|...|-100|...|...|...|[Link]()|
+|skt/kogpt2-base-v2|3|All Data(250000)|Testing...|...|-100|...|...|...|[Link]()|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
 ---
