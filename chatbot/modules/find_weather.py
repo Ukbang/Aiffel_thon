@@ -44,3 +44,6 @@ def find_weather(location, city=None):
 
     print(f'{city_location}의 현재 온도는 {present_weather}도 입니다.')
     print(f'최고 기온은 {maximum_temp}도 최저 기온은 {minimum_temp}도 입니다.')
+    
+    full_text = 
+    return 
