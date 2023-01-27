@@ -26,7 +26,7 @@
 # Test model
 |모델명|Epochs|데이터|진행 상황|진행 일시|라벨링|Loss|Val_Loss|성능|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|skt/kogpt2-base-v2|3|All Data(250000)|Waiting...|2023-01-26|Input과 동일|...|...|[Link]()|
+|skt/kogpt2-base-v2|3|All Data(250000)|Testing...|2023-01-27|Input과 동일|2.971 -> |3.966 -> |[Link]()|
 |skt/kogpt2-base-v2|3|All Data(250000)|Waiting...|...|Mask token|...|...|...|[Link]()|
 |skt/kogpt2-base-v2|3|All Data(250000)|Waiting...|...|-100|...|...|...|[Link]()|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
