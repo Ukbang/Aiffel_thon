@@ -24,6 +24,10 @@
 
 ---
 # Test model
+### Test 환경 
+All Data(250000) = GCP
+kakao Data(65000) = LMS
+
 |모델명|Epochs|데이터|진행 상황|진행 일시|Attention mask|라벨링|Loss|Val_Loss|Comment|성능|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |skt/kogpt2-base-v2|3|All Data(250000)|Waiting...|...|True|Input과 동일|...|...|...|[Link]()|
