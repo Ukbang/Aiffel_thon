@@ -24,12 +24,13 @@
 
 ---
 # Test model
-|모델명|Epochs|데이터|진행 상황|진행 일시|Attention mask|라벨링|Loss|Val_Loss|성능|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|skt/kogpt2-base-v2|3|All Data(250000)|Testing...|2023-01-29|True|Input과 동일|2.967 -> |3.957 -> |[Link]()|
-|skt/kogpt2-base-v2|3|All Data(250000)|Waiting...|...|True|Mask token|...|...|...|[Link]()|
-|skt/kogpt2-base-v2|3|All Data(250000)|Waiting...|...|True|-100|...|...|...|[Link]()|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|모델명|Epochs|데이터|진행 상황|진행 일시|Attention mask|라벨링|Loss|Val_Loss|Comment|성능|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|skt/kogpt2-base-v2|3|All Data(250000)|Waiting...|...|True|Input과 동일|...|...|...|[Link]()|
+|skt/kogpt2-base-v2|3|All Data(250000)|Waiting...|...|True|Mask token|...|...|...|...|[Link]()|
+|skt/kogpt2-base-v2|3|All Data(250000)|Waiting...|...|True|-100|...|...|...|...|[Link]()|
+|skt/kogpt2-base-v2|5|kakao Data(65000)|Testing...|2023-01-29|True|Input과 동일|...|...|...|...|[Link]()|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
 ---
 # Requirement
