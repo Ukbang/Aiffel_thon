@@ -18,7 +18,7 @@
 
 ### Multi Turn 형식의 대화
 
-![multi_turn](https://user-images.githubusercontent.com/112140981/212620678-4ca75466-6661-48b9-a9da-baf1574b623e.jpeg)
+![dsa](https://user-images.githubusercontent.com/112140981/215416610-06832e39-48b9-4e24-87e8-69a9fc7cf88d.png)
 
 데이터프레임 형태로 한 대화의 말뭉치를 Conversation column으로 구분하고 각 대화 간 발화자를 `'<usr>'`, `'<sys>'` 토큰으로 구분
 
