@@ -35,7 +35,7 @@ __kakao Data(65000) = LMS__
 |skt/kogpt2-base-v2|3|All Data(250000)|Waiting...|...|True|Input과 동일|...|...|...|[Link]()|
 |skt/kogpt2-base-v2|3|All Data(250000)|Waiting...|...|True|Mask token|...|...|...|[Link]()|
 |skt/kogpt2-base-v2|3|All Data(250000)|Waiting...|...|True|-100|...|...|...|[Link]()|
-|skt/kogpt2-base-v2|5|kakao Data(65000)|Testing...|2023-01-29|True|Input과 동일|...|...|...|[Link]()|
+|skt/kogpt2-base-v2|3|kakao Data(65000)|Testing...|2023-01-30|True|Input과 동일|2.330 -> 2.147 -> 2.084|1.765 -> 1.723 -> 1.704|문장 생성을 eos token 밖에 못함.|[Link]()|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
 ---
