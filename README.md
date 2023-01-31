@@ -25,8 +25,9 @@
 ---
 # Test model
 ### 데이터 갯수
-__All Data = 250000개__
+__topic = 250000개__
  
+ __topic+kakao Data = 190000개 ('<usr>로 끝나는 문구 삭제', 길이 128')__
  
 __kakao Data = 65000개__
 
