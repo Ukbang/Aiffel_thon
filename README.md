@@ -25,20 +25,20 @@
 ---
 # Test model
 ### 데이터 갯수
-__topic = 250000개__
+__Topic = 250000개__
  
- __topic+kakao Data = 190000개 ('`<usr>`로 끝나는 문구 삭제', 길이 128')__
+ __Topic+kakao Data = 190000개 ('`<usr>`로 끝나는 문구 삭제', 길이 128')__
  
 __kakao Data = 65000개__
 
 |모델명|Epochs|데이터|진행 상황|진행 일시|Attention mask|라벨링|Loss|Val_Loss|Comment|성능|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|skt/kogpt2-base-v2|5|All Data|Waiting...|...|False|Input과 동일|...|...|...|[Link]()|
-|skt/kogpt2-base-v2|3|All Data|Waiting...|...|True|Mask token|...|...|...|[Link]()|
-|skt/kogpt2-base-v2|3|All Data|Waiting...|...|True|-100|...|...|...|[Link]()|
+|skt/kogpt2-base-v2|5|Topic|Waiting...|...|False|Input과 동일|...|...|...|[Link]()|
+|skt/kogpt2-base-v2|3|Topic|Waiting...|...|True|Mask token|...|...|...|[Link]()|
+|skt/kogpt2-base-v2|3|Topic|Waiting...|...|True|-100|...|...|...|[Link]()|
 |skt/kogpt2-base-v2|3|kakao Data|Done|2023-01-30|True|Input과 동일|2.330 -> 2.147 -> 2.084|1.765 -> 1.723 -> 1.704|문장 생성을 eos token 밖에 못함.|[Link](https://github.com/Ukbang/Aiffel_thon/blob/main/chatbot/Test/Inference_code_label_True_len384.ipynb)|
-|skt/kogpt2-base-v2|3|All Data|Waiting...|...|True|-100|...|...|...|[Link]()|
-|skt/kogpt2-base-v2|3|All Data|Waiting...|...|True|-100|...|...|...|[Link]()|
+|skt/kogpt2-base-v2|3|Topic|Waiting...|...|True|-100|...|...|...|[Link]()|
+|skt/kogpt2-base-v2|3|Topic|Waiting...|...|True|-100|...|...|...|[Link]()|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
 ---
