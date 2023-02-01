@@ -31,13 +31,12 @@ __Topic = 250000개__
  
 __kakao Data = 65000개__
 
-|모델명|Epochs|데이터|진행 상황|진행 일시 mask|라벨링|Loss|Val_Loss|Comment|성능|
+|모델명|Epochs|데이터|진행 상황|진행 일시|라벨링|Loss|Val_Loss|Comment|성능|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |skt/kogpt2-base-v2|5|Topic+kakao|Done|2023-01-31|-100|4.290 -> 3.797 -> 3.340 -> 2.803 -> 2.195|3.821 -> 3.759 -> 3.804 -> 3.938 -> 4.143|단답형이고 대화가 잘 이루어 지지 않음.|[Link](https://github.com/Ukbang/Aiffel_thon/blob/main/chatbot/Test/23-02-01_-100_test.ipynb)|
-|skt/kogpt2-base-v2|3|Topic|Waiting...|...|Mask token|...|...|...|[Link]()|
-|skt/kogpt2-base-v2|5|Topic+kakao|Done|2023-02-01|Input과 동일|1.476 -> 1.343 -> 1.270 -> 1.203 -> 1.137|1.486 -> 1.445 -> 1.434 -> 1.441 -> 1.461||[Link](https://github.com/Ukbang/Aiffel_thon/blob/main/chatbot/Test/23-02-01_True_test.ipynb)|
+|skt/kogpt2-base-v2|5|Topic+kakao|Done|2023-02-01|Input과 동일|1.476 -> 1.343 -> 1.270 -> 1.203 -> 1.137|1.486 -> 1.445 -> 1.434 -> 1.441 -> 1.461|현재까지 가장 Best|[Link](https://github.com/Ukbang/Aiffel_thon/blob/main/chatbot/Test/23-02-01_True_test.ipynb)|
 |skt/kogpt2-base-v2|3|kakao Data|Done|2023-01-30|Input과 동일|2.330 -> 2.147 -> 2.084|1.765 -> 1.723 -> 1.704|문장 생성을 eos token 밖에 못함.|[Link](https://github.com/Ukbang/Aiffel_thon/blob/main/chatbot/Test/Inference_code_label_True_len384.ipynb)|
-|skt/kogpt2-base-v2|3|Topic|Waiting...|...|-100|...|...|...|[Link]()|
+|skt/kogpt2-base-v2|5|Topic+kakao|Testing...|2023-02-01|shift|2.140 -> 2.005 -> |2.298 -> 2.236 -> |...|[Link]()|
 |skt/kogpt2-base-v2|3|Topic|Waiting...|...|-100|...|...|...|[Link]()|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
