@@ -31,6 +31,12 @@ __Topic = 250000개__
  
 __kakao Data = 65000개__
 
+### Label
+
+__Input = Input과 Label이 동일__
+__-100 = 마지막 sys 대화를 제외한 -100을 이용한 Masking__
+__Shift = Input은 `<s>` 토큰을 bos_token으로 사용, Label은 `</s>`토큰을 eos_token으로 사용함.__
+
 |Model|Epochs|Data|진행 상황|진행 일시|Label|Loss|Val_Loss|Comment|성능|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |skt/kogpt2-base-v2|5|Topic+kakao|Done|2023-01-31|-100|4.290 -> 3.797 -> 3.340 -> 2.803 -> 2.195|3.821 -> 3.759 -> 3.804 -> 3.938 -> 4.143|단답형이고 대화가 잘 이루어 지지 않음.|[Link](https://github.com/Ukbang/Aiffel_thon/blob/main/chatbot/Test/23-02-01_-100_test.ipynb)|
