@@ -34,7 +34,11 @@ __kakao Data = 65000개__
 ### Label
 
 __Input = Input과 Label이 동일__
+ 
+ 
 __-100 = 마지막 sys 대화를 제외한 -100을 이용한 Masking__
+ 
+ 
 __Shift = Input은 `<s>` 토큰을 bos_token으로 사용, Label은 `</s>`토큰을 eos_token으로 사용함.__
 
 |Model|Epochs|Data|진행 상황|진행 일시|Label|Loss|Val_Loss|Comment|성능|
