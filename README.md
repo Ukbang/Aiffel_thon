@@ -1,5 +1,7 @@
 # Aiffel Thon
 ---
+# Project : ChatHuman
+---
  
 |순서|기간|세부 계획|
 |------|:---:|:---:|
