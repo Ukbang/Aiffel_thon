@@ -1,9 +1,9 @@
 # <p align ="center"> 🕰️ Aiffel Thon </p>
 ---
 ## <p align ="center"> 인공지능 비서를 만들어보자! </p> 
-## <p align ="center"> Project : 🤖 ChatHuman </p> 
-
-- <p align ="center"> [방승욱](https://github.com/Ukbang) | [구본회](https://github.com/HughBGrant) | [이태환](https://github.com/leetaehwan) | [장문규](https://github.com/fmfmsd)| </p>
+## <p align ="center"> Project : 🤖 ChatHuman 🤖 </p> 
+### <p align ="center"> 팀원 </p>
+- <p align ="center"> 🤹‍♂️ 방승욱 🚴‍♂️ 구본회 🏌️‍♂️ 이태환 ⛷️ 장문규 </p>
 
 ### <p align ="center"> 이 프로젝트는 22.12.26 ~ 23.02.08일까지 진행되는 아이펠톤 프로젝트 입니다. </p>
 ---
@@ -28,6 +28,14 @@
 ![dsa](https://user-images.githubusercontent.com/112140981/215416610-06832e39-48b9-4e24-87e8-69a9fc7cf88d.png)
 
 데이터프레임 형태로 한 대화의 말뭉치를 Conversation column으로 구분하고 각 대화 간 발화자를 `'<usr>'`, `'<sys>'` 토큰으로 구분
+
+---
+# 팀원 깃허브 링크
+
+- [방승욱](https://github.com/Ukbang)
+- [구본회](https://github.com/HughBGrant) 
+- [이태환](https://github.com/leetaehwan) 
+- [장문규](https://github.com/fmfmsd)
 
 ---
 # Test model
