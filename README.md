@@ -38,7 +38,21 @@
 - 데이터프레임 형태로 한 대화의 말뭉치를 Conversation column으로 구분하고 각 대화 간 발화자를 `'<usr>'`, `'<sys>'` 토큰으로 구분   
 
 ---
-# Test model
+## 전처리 방식
+
+---
+
+## 모델
+
+---
+## Requirement
+> Transformer 4.11.3
+>  
+> Numpy 1.21.4
+>  
+> PyTorch 1.9.1+cu111
+---
+## 학습 과정
 
 ### 데이터 갯수
 __Topic = 250000개__
@@ -69,17 +83,9 @@ __Shift = Input은 `<s>` 토큰을 bos_token으로 사용, Label은 `</s>`토큰
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
 ---
-# Requirement
-> Transformer 4.11.3
->  
-> Numpy 1.21.4
->  
-> PyTorch 1.9.1+cu111
- 
- 
-
+## 회고
 ---
-# Reference
+## 참고 문헌
 1. [songys/AwesomeKorean_Data: 한국어 데이터 세트 링크](https://github.com/songys/AwesomeKorean_Data)
 2. [자유대화형식의 음성 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=109)
 3. [STT모델 및 TTS모델 개발](https://www.youtube.com/watch?v=WTul6LIjIBA)
