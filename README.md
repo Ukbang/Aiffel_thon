@@ -1,4 +1,8 @@
-# Aiffel Thon
+# :family: Aiffel Thon 
+
+<span style="color: blue; background-color: #fff2cc;"> Aiffel Thon </span>
+
+### 이 프로젝트는 22.12.26 ~ 23.02.08일까지 진행되는 아이펠톤 프로젝트 입니다.
 ---
 # Project : ChatHuman
 ---
