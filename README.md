@@ -1,12 +1,19 @@
 # <p align ="center"> 🕰️ Aiffel Thon </p>
----
+
 ## <p align ="center"> 인공지능 비서를 만들어보자! </p> 
-## <p align ="center"> Project : 🤖 ChatHuman 🤖 </p> 
+
+## <p align ="center"> 🤖 Team ChatHuman 🤖 </p> 
+
 ### <p align ="center"> 팀원 </p>
+
 - <p align ="center"> 🤹‍♂️ 방승욱 🚴‍♂️ 구본회 🏌️‍♂️ 이태환 ⛷️ 장문규 </p>
 
 ### <p align ="center"> 이 프로젝트는 22.12.26 ~ 23.02.08일까지 진행되는 아이펠톤 프로젝트 입니다. </p>
+
+### <p align ="center"> 개요 </p>
 ---
+ 
+### 세부 일정
  
 |순서|기간|세부 계획|
 |------|:---:|:---:|
@@ -19,26 +26,20 @@
 |7번|23.01.18 ~ 23.02.03|모델 다듬기|
 |8번|23.02.06 ~ 23.02.07|발표 준비|
 |9번|23.02.08|발표|
-       
+
 ---
-# 사용할 데이터의 형식
+## Dataset
 
 ### Multi Turn 형식의 대화
 
 ![dsa](https://user-images.githubusercontent.com/112140981/215416610-06832e39-48b9-4e24-87e8-69a9fc7cf88d.png)
 
-데이터프레임 형태로 한 대화의 말뭉치를 Conversation column으로 구분하고 각 대화 간 발화자를 `'<usr>'`, `'<sys>'` 토큰으로 구분
-
----
-# 팀원 깃허브 링크
-
-- [방승욱](https://github.com/Ukbang)
-- [구본회](https://github.com/HughBGrant) 
-- [이태환](https://github.com/leetaehwan) 
-- [장문규](https://github.com/fmfmsd)
+- AIHub 에서 제공하는 주제별 텍스트 일상생활 데이터와 한국어 대화 요약을 이용하여 만듦.
+- 데이터프레임 형태로 한 대화의 말뭉치를 Conversation column으로 구분하고 각 대화 간 발화자를 `'<usr>'`, `'<sys>'` 토큰으로 구분   
 
 ---
 # Test model
+
 ### 데이터 갯수
 __Topic = 250000개__
  
@@ -96,6 +97,16 @@ __Shift = Input은 `<s>` 토큰을 bos_token으로 사용, Label은 `</s>`토큰
 15. [GPT-2 Fine Tuning ](https://blog.naver.com/ds_penaut/222699897818)
 16. [CaFeCoKe/KoGPT2_Chatbot](https://github.com/CaFeCoKe/KoGPT2_Chatbot)
 ---
+### 팀원 깃허브 링크
+
+- [방승욱](https://github.com/Ukbang)
+- [구본회](https://github.com/HughBGrant) 
+- [이태환](https://github.com/leetaehwan) 
+- [장문규](https://github.com/fmfmsd)
+
+---
 ### Google Drive
 - [구글 드라이브 링크](https://drive.google.com/drive/folders/13xvDPcMMqEe8cVTOg3VBjc0IgSjOAX9E)
+
+
  
