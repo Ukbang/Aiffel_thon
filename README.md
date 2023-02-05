@@ -1,4 +1,4 @@
-# <span> :family: Aiffel Thon </span>
+# <span style="color: blue; background-color: #fff2cc;"> :family: Aiffel Thon </span>
 
        <span style="color: blue; background-color: #fff2cc;"> Aiffel Thon </span>
 
