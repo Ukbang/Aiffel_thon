@@ -1,11 +1,10 @@
 # <p align ="center"> 🕰️ Aiffel Thon </p>
-## <p align ="center"> 인공지능 비서를 만들어보자!</p>
-
-<p align ="center"> [방승욱](https://github.com/Ukbang)|[구본회](https://github.com/HughBGrant)|[이태환](https://github.com/leetaehwan)|[장문규](https://github.com/fmfmsd)|</p>
 ---
-## <p align ="center"> :robot: ChatHuman </p>
-
-### 이 프로젝트는 22.12.26 ~ 23.02.08일까지 진행되는 아이펠톤 프로젝트 입니다.
+## <p align ="center"> 인공지능 비서를 만들어보자! 
+## 프로젝트명 : 챗휴먼
+##  🤖 ChatHuman 
+- [방승욱](https://github.com/Ukbang) | [구본회](https://github.com/HughBGrant) | [이태환](https://github.com/leetaehwan) | [장문규](https://github.com/fmfmsd)|
+### 이 프로젝트는 22.12.26 ~ 23.02.08일까지 진행되는 아이펠톤 프로젝트 입니다.</p>
 ---
 # Project : ChatHuman
 ---
