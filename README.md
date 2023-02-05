@@ -1,16 +1,14 @@
-# <p align ="center"> 🕰️ Aiffel Thon </p>
+## <p align ="center"> 🕰️ Aiffel Thon </p>
 
 ## <p align ="center"> 인공지능 비서를 만들어보자! </p> 
 
-## <p align ="center"> 🤖 Team ChatHuman 🤖 </p> 
+### <p align ="center"> 🤖 Team ChatHuman 🤖 </p> 
 
 ### <p align ="center"> 팀원 </p>
 
 - <p align ="center"> 🤹‍♂️ 방승욱 🚴‍♂️ 구본회 🏌️‍♂️ 이태환 ⛷️ 장문규 </p>
 
 ### <p align ="center"> 이 프로젝트는 22.12.26 ~ 23.02.08일까지 진행되는 아이펠톤 프로젝트 입니다. </p>
-
-### <p align ="center"> 개요 </p>
 ---
  
 ### 세부 일정
@@ -28,9 +26,13 @@
 |9번|23.02.08|발표|
 
 ---
-## Dataset
+### 개요
 
-### Multi Turn 형식의 대화
+
+---
+### Dataset
+
+#### Multi Turn 형식의 대화
 
 ![dsa](https://user-images.githubusercontent.com/112140981/215416610-06832e39-48b9-4e24-87e8-69a9fc7cf88d.png)
 
@@ -38,30 +40,30 @@
 - 데이터프레임 형태로 한 대화의 말뭉치를 Conversation column으로 구분하고 각 대화 간 발화자를 `'<usr>'`, `'<sys>'` 토큰으로 구분   
 
 ---
-## 전처리 방식
+### 전처리 방식
 
 ---
 
-## 모델
+### 모델
 
 ---
-## Requirement
+### Requirement
 > Transformer 4.11.3
 >  
 > Numpy 1.21.4
 >  
 > PyTorch 1.9.1+cu111
 ---
-## 학습 과정
+### 학습 과정
 
-### 데이터 갯수
+#### 데이터 갯수
 __Topic = 250000개__
  
  __Topic+kakao Data = 190000개 ('`<usr>`로 끝나는 문구 삭제', 길이 128')__
  
 __kakao Data = 65000개__
 
-### Label
+#### Label
 
 __Input = Input과 Label이 동일__
  
@@ -83,9 +85,9 @@ __Shift = Input은 `<s>` 토큰을 bos_token으로 사용, Label은 `</s>`토큰
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
 ---
-## 회고
+### 회고
 ---
-## 참고 문헌
+### 참고 문헌
 1. [songys/AwesomeKorean_Data: 한국어 데이터 세트 링크](https://github.com/songys/AwesomeKorean_Data)
 2. [자유대화형식의 음성 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=109)
 3. [STT모델 및 TTS모델 개발](https://www.youtube.com/watch?v=WTul6LIjIBA)
