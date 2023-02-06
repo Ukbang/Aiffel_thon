@@ -57,9 +57,14 @@
 ---
 
 ### 모델
+- 모델은 🤗Hugging Face에서 제공하는 gpt2 모델을 사용하였음.
+- 베이스 모델로 ['skt/kogpt2-base-v2'](https://github.com/SKT-AI/KoGPT2) 을 사용함.
+
+![gpt2](https://github.com/Ukbang/Aiffel_thon/blob/main/images/gpt2.png)
 
 ---
 ### 학습 과정
+
 
 #### 데이터 갯수
 __Topic = 250000개__
