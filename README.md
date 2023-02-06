@@ -73,7 +73,7 @@
 <p align ="center"><img src="/images/gpt2.png" width="800px" height="300px"></p>
 
 ---
-### 학습
+### 학습 진행과정 리더보드
 
 __Topic = 250000개__
  
