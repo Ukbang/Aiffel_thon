@@ -1,6 +1,6 @@
 ## <p align ="center"> 🕰️ Aiffel Thon </p>
 
-## <p align ="center"> 인공지능 비서를 만들어보자! </p> 
+## <p align ="center"> 프로젝트 : 인공지능 비서를 만들어보자! </p> 
 
 ### <p align ="center"> 🤖 Team ChatHuman 🤖 </p> 
 
