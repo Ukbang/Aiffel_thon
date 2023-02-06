@@ -42,9 +42,11 @@
 ### Dataset
 - AIHub 에서 제공하는 주제별 텍스트 일상생활 데이터와 한국어 대화 요약을 이용하여 만듦.
 - 데이터프레임 형태로 한 대화의 말뭉치를 Conversation column으로 구분하고 각 대화 간 발화자를 `'<usr>'`, `'<sys>'` 토큰으로 구분
+![data_image](https://github.com/Ukbang/Aiffel_thon/blob/main/images/data_image.jpeg)
 
 ---
 ### 전처리 방식
+
 
 ---
 
