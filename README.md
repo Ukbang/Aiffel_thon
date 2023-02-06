@@ -110,7 +110,7 @@ __Shift = Input은 `<s>` 토큰을 bos_token으로 사용, Label은 `</s>`토큰
 ---
 
 ### 추가된 서비스
-<p align ="center"><img src="/images/service_message.png" width="600px" height="800px"></p>
+<p align ="center"><img src="/images/service_message.png" width="600px" height="900px"></p>
 
 ---
 
