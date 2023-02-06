@@ -100,12 +100,17 @@ __Shift = Input은 `<s>` 토큰을 bos_token으로 사용, Label은 `</s>`토큰
 |skt/kogpt2-base-v2|5|Topic+kakao|Done|2023-02-05|-100+sys|'''|'''|.....|[Link]()|
 |.....|.....|.....|.....|.....|.....|.....|.....|.....|.....|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
----
-### 추가된 서비스
-<p align="center">![service_message](https://github.com/Ukbang/Aiffel_thon/blob/main/images/service_message.png)</p>
 
 ---
+
+### 추가된 서비스
+<p align ="center"><img src="/images/service_message.png" width="600px" height="800px"></p>
+
+---
+
 ### 회고
+-
+
 ---
 ### 참고 문헌
 1. [songys/AwesomeKorean_Data: 한국어 데이터 세트 링크](https://github.com/songys/AwesomeKorean_Data)
