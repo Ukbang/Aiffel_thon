@@ -41,12 +41,18 @@
 ---
 ### Dataset
 - AIHub 에서 제공하는 주제별 텍스트 일상생활 데이터와 한국어 대화 요약을 이용하여 만듦.
-- 데이터프레임 형태로 한 대화의 말뭉치를 Conversation column으로 구분하고 각 대화 간 발화자를 `'<usr>'`, `'<sys>'` 토큰으로 구분
+- 데이터프레임 형태로 한 대화의 말뭉치를 Conversation column으로 구분하고 각 대화 간 발화자를 `'<usr>'`, `'<sys>'` 토큰으로 구분   
+
 ![data_image](https://github.com/Ukbang/Aiffel_thon/blob/main/images/data_image.jpeg)
 
 ---
 ### 전처리 방식
+- modules/preprocessing.py 파일의 clear_sentence 함수를 이용하여 처리.
+- #@이름#은 make_name 함수를 이용하여 랜덤한 이름을 생성할 수 있도록 하였음.
+- @URL, #@시스템#사진#, #@이모티콘#은 삭제하였고 반복되는 ㅋ,ㅎ,ㅜ,ㅠ,. 과 같은 문자는 2개로 통일하였으며 자주 등장하는 키키 는 ㅋㅋ 로 변경하였음.
 
+![make_name](https://github.com/Ukbang/Aiffel_thon/blob/main/images/make_name.jpeg)
+![clear_sentence](https://github.com/Ukbang/Aiffel_thon/blob/main/images/clear_sentence.jpeg)
 
 ---
 
