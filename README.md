@@ -74,7 +74,7 @@
 
 ---
 ### 학습 진행과정 리더보드
-
+#### Data type
 __Topic = 250000개__
  
  __Topic+kakao Data = 190000개 ('`<usr>`로 끝나는 문구 삭제', 길이 128')__
@@ -95,7 +95,7 @@ __-100+sys = 모든 `<sys>` 대화를 제외한 모든 대화 -100으로 Masking
  
 __Shift = Input은 `<s>` 토큰을 bos_token으로 사용, Label은 `</s>`토큰을 eos_token으로 사용함.__
 
-|index|Model|Epochs|Data|진행 상황|진행 일시|Label|Loss|Val_Loss|Comment|성능|
+|index|Model|Epochs|Data type|진행 상황|진행 일시|Label|Loss|Val_Loss|Comment|성능|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |1|skt/kogpt2-base-v2|5|Topic+kakao|Done|2023-01-31|-100|4.290 -> 3.797 -> 3.340 -> 2.803 -> 2.195|3.821 -> 3.759 -> 3.804 -> 3.938 -> 4.143|단답형이고 대화가 잘 이루어 지지 않음.|[Link](https://github.com/Ukbang/Aiffel_thon/blob/main/chatbot/Test/23-02-01_-100_test.ipynb)|
 |2|skt/kogpt2-base-v2|5|Topic+kakao|Done|2023-02-01|Input|1.476 -> 1.343 -> 1.270 -> 1.203 -> 1.137|1.486 -> 1.445 -> 1.434 -> 1.441 -> 1.461|현재까지 가장 Best|[Link](https://github.com/Ukbang/Aiffel_thon/blob/main/chatbot/Test/23-02-01_True_test.ipynb)|
