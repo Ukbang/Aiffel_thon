@@ -141,7 +141,7 @@ __Shift = Input은 `<s>` 토큰을 bos_token으로 사용, Label은 `</s>`토큰
 - [방승욱](https://github.com/Ukbang)
 - [구본회](https://github.com/HughBGrant) 
 - [이태환](https://github.com/leetaehwan) 
-- [장문규](https://github.com/fmfmsd)
+- [장문규](https://github.com/MunGyuJang)
 
 ---
 ### Google Drive
