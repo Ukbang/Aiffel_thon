@@ -77,7 +77,7 @@
 #### Data type
 __Topic = 250000개__
  
- __Topic+kakao Data = 190000개 ('`<usr>`로 끝나는 문구 삭제', 길이 128')__
+ __Topic+kakao Data = 190000개 ('`<usr>`로 끝나는 문구 삭제', 길이 256')__
  
 __kakao Data = 65000개__
 
