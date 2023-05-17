@@ -39,7 +39,7 @@
 ### Requirement
 > Python 3.9.7
 > 
-> Transformer 4.11.3
+> Transformer 4.26.0
 >  
 > Numpy 1.21.4
 >  
